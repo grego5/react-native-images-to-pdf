@@ -1,0 +1,36 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+coverage/
+
+# Local configuration
+.env
+.env.local
+.env.*.local
+
+# macOS and editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Android and Gradle
+android/.gradle/
+android/build/
+android/.cxx/
+android/local.properties
+*.apk
+*.aab
+
+# iOS and CocoaPods
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/xcuserdata/
+*.xcuserstate
+
+# Generated native build artifacts
+*.dSYM
+*.dSYM.zip
